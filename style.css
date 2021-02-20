@@ -1,0 +1,88 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #27c4b6;
+    width: 100%;
+    height: 667px;
+    display: grid;
+    place-items: center;
+}
+.markstable{
+    width: 50%;
+    height: 400px;
+    background-color: #3d3c3e;
+    border-radius: 40px;
+    position: relative;
+    
+
+   }
+   .student{
+      
+       float: left;
+       position: relative;
+   }
+   .line{
+       width: 4px;
+       height: 105px;
+       background-color: #27c4b6;
+       position: absolute;
+       top: 100px;
+       left: 90px;
+   }
+    .heading{
+        font-size: 30px;
+        padding-top: 100px;
+        padding-left: 100px;
+        color: #27c4b6;
+        font-weight: bolder;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   .marks{
+       float: right;
+       margin-right: 40px;
+       margin-top: 50px;      
+    }
+    .a{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid white;
+      background-color:#3d3c3e;
+      color: white;
+      width: 250px;
+      font-size: 18px;
+      font-weight: bold;
+      outline: none;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    ::-webkit-input-placeholder{
+        color: white;
+        font-weight: bolder;
+        font-size: 18px;
+        padding-top: 5px;
+    }
+   .btn{
+    background-color:#3d3c3e;
+    color: #27c4b6; 
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    margin-top: 5px;
+    cursor: pointer;
+    padding-left: 20px;
+   }
+   .para{
+       font-size: 18px;
+       font-weight: bold;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       color: white;
+       position: absolute;
+       top: 330px;
+       padding-left: 150px;
+       text-align: center;
+   }

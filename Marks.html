@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marks Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="markstable">
+             <div class="student">
+              <div class="line"></div>
+              <div class="heading">STUDENT <br> GRADE <br> CLACY</div>
+             </div>
+             <div class="marks">
+                 <form id="myForm">
+               <input class="a" type="text" placeholder="Web Programming"  name="wd" id="wd"><br>
+               <input class="a" type="text" placeholder="Maths" value="" name="maths" id="maths"><br>
+               <input class="a" type="text" placeholder="Computer" name="computer" id="comp"><br>
+               <input class="a" type="text" placeholder="Chemistry" name="chemistry" id="che"><br> 
+               <input class="a" type="text" placeholder="Physics" name="physics" id="phy"><br>   
+               <input class="btn" type="button" onclick="calcy()" value="SHOWPERCENTAGE"> 
+               <input onclick="clearr()" class="btn" type="reset" value="RESET" name="" id="clear"> 
+            </form>
+             </div>
+        
+                <p id="para" class="para"></p>
+         
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
